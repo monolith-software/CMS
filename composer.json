@@ -156,6 +156,8 @@
         "smart-core-scripts": [
             "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
             "sh bin/clear_cache",
+            "Monolith\\Bundle\\CMSBundle\\CMSGeneratorBundle\\ScriptHandler::installCms",
+            "sh bin/clear_cache",
             "Monolith\\Bundle\\CMSBundle\\Composer\\ScriptHandler::createThemesSymlink",
             "sh bin/clear_cache",
             "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck",
