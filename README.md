@@ -1,9 +1,8 @@
-Monolith CMS Development Sandbox
-================================
+Monolith CMS Standart Distribution
+==================================
 
-@TODO
------
- - Knp\Bundle\MenuBundle\Provider\BuilderAliasProvider:getBuilder - При одинаковом имени класса подхватывает класс из первого попавшегося бандла.
- - Возможность кастомизировать сущность User. 
- - Переделать загрузку файлов в МК через \Symfony\Component\HttpFoundation\File\File вместо UploadedFile
- 
+Install:
+```
+    composer create-project monolith-software/cms -s dev
+``` 
+
