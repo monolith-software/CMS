@@ -155,14 +155,21 @@
         ],
         "smart-core-scripts": [
             "SmartCore\\Bundle\\AcceleratorCacheBundle\\Composer\\ScriptHandler::clearCache",
+            "sh bin/clear_cache",
             "Monolith\\Bundle\\CMSBundle\\Composer\\ScriptHandler::createThemesSymlink",
-            "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck"
+            "sh bin/clear_cache",
+            "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck",
+            "sh bin/clear_cache"
         ],
         "symfony-scripts": [
             "Incenteev\\ParameterHandler\\ScriptHandler::buildParameters",
+            "sh bin/clear_cache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "sh bin/clear_cache",
             "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installRequirementsFile",
-            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget"
+            "sh bin/clear_cache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::prepareDeploymentTarget",
+            "sh bin/clear_cache"
         ],
         "post-install-cmd": [
             "@init-scripts",

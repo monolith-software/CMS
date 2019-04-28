@@ -1,0 +1,11 @@
+# используется только при инсталляции.
+doctrine:
+    orm:
+        mappings:
+            model:
+                type: annotation
+                #dir: "%kernel.root_dir%/Entity"
+                dir: "%kernel.project_dir%/vendor/monolith-software/cms-generator-bundle/Resources/skeleton"
+                prefix: App
+                #alias: User
+                is_bundle: false
