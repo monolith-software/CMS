@@ -1,6 +1,6 @@
 {
-    "name": "monolith-studio/monolith-cms-sandbox",
-    "description": "Monolith CMS Sandbox",
+    "name": "monolith-software/cms",
+    "description": "Monolith CMS Standart Distribution",
     "license": "MIT",
     "type": "project",
     "autoload": {
