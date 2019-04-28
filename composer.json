@@ -158,6 +158,8 @@
             "sh bin/clear_cache",
             "Monolith\\Bundle\\CMSGeneratorBundle\\Composer\\ScriptHandler::installCms",
             "sh bin/clear_cache",
+            "Sensio\\Bundle\\DistributionBundle\\Composer\\ScriptHandler::installAssets",
+            "sh bin/clear_cache",
             "Monolith\\Bundle\\CMSBundle\\Composer\\ScriptHandler::createThemesSymlink",
             "sh bin/clear_cache",
             "Smart\\CoreBundle\\Composer\\ScriptHandler::doctrineSchemaCheck",
